@@ -1,6 +1,6 @@
-﻿namespace JN_ProyectoWeb.Models
+﻿namespace JN_ProyectoAPI.Models
 {
-    public class UsuarioModel
+    public class DatosUsuarioResponseModel
     {
         public int ConsecutivoUsuario { get; set; }
         public string Identificacion { get; set; } = string.Empty;
